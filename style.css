@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.topheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #fb6900;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+
+}
+.nav_mid{
+  display: flex;
+  justify-content: space-around;
+}
+.nav_miditem{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 450px;
+    padding: 0 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 90px;
+    padding-top: 20px;
+    gap: 15px;
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav_icon{
+    height: 20px;
+    padding: 0 10px;
+}
+.nav_icon1{
+    height: 26px;
+    padding: 0 10px;
+}
+.mimimalistimg{
+    height: 29.45px    ;
+}
+.topmainimg1{
+    width: 100%;
+}
+.mainbody{
+    display: flex;
+    margin-top: 20px;
+}
+.topmaincontent{
+    display: grid;
+    grid-template-columns: 455.75px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.toprightmain2{
+    grid-area: 2/1/4/2;
+    padding-left: 30px;
+}
+.p2{
+    font-family: "Montserrat", sans-serif;
+    font-size: xx-large;
+}
+.p1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 25px;
+}
+.shopnow{
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    border: 0;
+    padding: 15px 30px;
+}
+.p3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    padding-left: 127px;
+}
+.starrating{
+    height: 25px;    
+}
+.mainbody2element{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 60px;
+}
+.secmaineleimg{
+    width: 100%;
+    height: 60%;
+}
+.secmainsele{
+    padding: 20px 30px;
+}
+.space{
+    display: flex;
+    justify-content: center;
+}
+.cursor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+.cursorbox{
+    width: 80px;
+    height: 5px;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+}
+.cursorinnerbox{
+    width: 40px;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.view{
+    padding: 13px 45px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.space1{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.cursor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    gap: 10px;
+}
+.p4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    padding-left: 95px;
+}
+.secmaineleimg1{
+    width: 100%;
+    height: 40%;
+}
+.mainbody2{
+    padding: 0 150px;
+}
+.info1item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 30px 0;
+}
+.info1{
+    padding-bottom: 90px;
+}
+.info2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.info2img1{
+    width: 20%;
+}
+.p6{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 25px;
+    text-align: center;
+}
+.final{
+    margin: 90px 0;
+    display: flex;
+    justify-content: center;
+     gap: 10px;
+}
+.p7{
+    font-family: "Montserrat", sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+/* .spacing{
+    padding-top: 30px;
+} */
+.finalimg{
+    height: 60%;
+    
+}
+.final1{
+    text-align: center;
+    padding-bottom: 50px;
+    border: 1px solid #D9D7D4;
+    height: max-content;
+    background-color: #F2EFEC;
+}
+.bgfinal{
+    background-image: url(assets/images/Skin_Analyser.avif);
+    width: 622px;
+    height: 622px;
+    background-size: contain;
+}
+.bgfinal1{
+    background-image: url(assets/images/Purple_Modern_Download_App_Instagram_Post_1.avif);
+    width: 622px;
+    height: 622px;
+    background-size: contain;
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+    padding-bottom: 70px;
+}
+.list1{
+    list-style: none;
+}
+footer{
+    background-color: #1B1A1A;
+    color: #D9D8D7;
+    padding: 100px 0;
+}
+.foot2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 25px;
+}
+.foot3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 650;
+    line-height: 35px;
+}
+.line1{
+    border-bottom: none;
+    color: #585754;
+}
+.lastfoot{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-left: 270px;
+}
